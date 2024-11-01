@@ -15,7 +15,9 @@ export default function Navbar() {
           <div className="flex">
             <Link href="/" className="flex items-center">
               <Tent className="h-8 w-8 text-primary" />
-              <span className="ml-2 text-xl font-bold">Kashta</span>
+              <span className="ml-2 text-xl font-bold bg-gradient-to-r from-yellow-400 to-green-500 bg-clip-text text-transparent">
+                LemontreeKW
+              </span>
             </Link>
           </div>
 
@@ -30,7 +32,10 @@ export default function Navbar() {
             <Link href="/services" className="text-foreground/80 hover:text-foreground">
               Services
             </Link>
-            <Button asChild>
+            <Button 
+              asChild
+              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full shadow-lg transition-all duration-300"
+            >
               <Link href="/book">Book Now</Link>
             </Button>
           </div>

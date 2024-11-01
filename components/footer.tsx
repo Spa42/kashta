@@ -62,13 +62,13 @@ export default function Footer() {
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
               <li className="text-sm text-foreground/80">
-                Email: info@kashta.com
+                Email: Lemon@tree.kw
               </li>
               <li className="text-sm text-foreground/80">
-                Phone: +1 (555) 123-4567
+                Phone: +965 98999821
               </li>
               <li className="text-sm text-foreground/80">
-                Location: Desert Oasis, UAE
+                Location: Subiya, Kuwait
               </li>
             </ul>
           </div>
