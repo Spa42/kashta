@@ -2,6 +2,7 @@
   "name": "nextjs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://spa42.github.io/kashta",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
